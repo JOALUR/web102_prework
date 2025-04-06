@@ -37,6 +37,7 @@ GIF created with ...
 Secret Keys:
 Challenge #0: instructions
 Challenge #1: seaworthy
+Challenge #2: OOZEdiveTRAPpine
 
 Describe any challenges encountered while building the app.
 
