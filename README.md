@@ -34,6 +34,9 @@ GIF created with ...
 
 ## Notes
 
+Secret Keys:
+Challenge #0: instructions
+
 Describe any challenges encountered while building the app.
 
 ## License
