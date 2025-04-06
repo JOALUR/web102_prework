@@ -38,6 +38,7 @@ Secret Keys:
 Challenge #0: instructions
 Challenge #1: seaworthy
 Challenge #2: OOZEdiveTRAPpine
+Challenge #3: 6games-container.stats-card15
 
 Describe any challenges encountered while building the app.
 
