@@ -40,7 +40,8 @@ Challenge #1: seaworthy
 Challenge #2: OOZEdiveTRAPpine
 Challenge #3: 6games-container.stats-card15
 Challenge #4: 11seafoamGAMES_JSON
-Challenge #5:
+Challenge #5: 19187800268BRAIN
+Challenge #6: 
 
 Describe any challenges encountered while building the app.
 
