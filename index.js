@@ -112,28 +112,44 @@ function filterUnfundedOnly() {
     deleteChildElements(gamesContainer);
 
     // use filter() to get a list of games that have not yet met their goal
-
+    let listOfUnfunded = GAMES_JSON.filter ((game) => {
+        return game.pledged < game.goal;
+    });
 
     // use the function we previously created to add the unfunded games to the DOM
+    addGamesToPage(listOfUnfunded);
+
+    console.log("Unfunded games:", listOfUnfunded.length);
+    // 7 games
 
 }
+//filterUnfundedOnly();
+
 
 // show only games that are fully funded
 function filterFundedOnly() {
     deleteChildElements(gamesContainer);
 
     // use filter() to get a list of games that have met or exceeded their goal
-
+    let listOfFunded = GAMES_JSON.filter((game) => {
+        return game.pledged >= game.goal;
+    });
 
     // use the function we previously created to add unfunded games to the DOM
+    addGamesToPage(listOfFunded);
+
+    console.log("Funded games:", listOfFunded.length);
+    // 4 games
 
 }
+//filterFundedOnly();
 
 // show all games
 function showAllGames() {
     deleteChildElements(gamesContainer);
 
     // add all games from the JSON data to the DOM
+    addGamesToPage(GAMES_JSON);
 
 }
 
@@ -143,6 +159,21 @@ const fundedBtn = document.getElementById("funded-btn");
 const allBtn = document.getElementById("all-btn");
 
 // add event listeners with the correct functions to each button
+document.getElementById("unfunded-btn").addEventListener("click", filterUnfundedOnly);
+document.getElementById("funded-btn").addEventListener("click", filterFundedOnly);
+document.getElementById("all-btn").addEventListener("click", showAllGames);
+
+/*
+    secret key:
+    7
+    4
+    FLANNEL
+    click
+
+    final key: 74FLANNELclick
+
+*/
+
 
 
 /*************************************************************************************
@@ -154,12 +185,37 @@ const allBtn = document.getElementById("all-btn");
 const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
+function countUnfunded(){
+    deleteChildElements(gamesContainer);
 
+    let unfundedGames = GAMES_JSON.filter((game) => {
+        return game.pledged < game.goal;
+    });
 
-// create a string that explains the number of unfunded games using the ternary operator
+    let numOfUnfunded = unfundedGames.length;
 
+    // create a string that explains the number of unfunded games using the ternary operator
+    const message = `There are ${numOfUnfunded} unfunded games currently. We need your help to fund these amazing games!`;
 
-// create a new DOM element containing the template string and append it to the description container
+    // create a new DOM element containing the template string and append it to the description container
+    const description = document.createElement("p");
+    description.innerHTML = message;
+    descriptionContainer.appendChild(description);
+
+}
+countUnfunded();
+
+/* 
+    Secret keys:
+    toLocaleString
+    <div>
+    1
+    GAP
+
+    final key: toLocaleString<div>1IVY
+
+*/
+
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
