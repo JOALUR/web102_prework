@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Crowdfunding*
 
-Submitted by: **Your Name Here**
+Submitted by: **Jose Uribe**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **6-8** hours spent in total
 
 ## Required Features
 
@@ -41,9 +41,14 @@ Challenge #2: OOZEdiveTRAPpine
 Challenge #3: 6games-container.stats-card15
 Challenge #4: 11seafoamGAMES_JSON
 Challenge #5: 19187800268BRAIN
-Challenge #6: 
+Challenge #6: 74FLANNELclick
+Challenge #7: toLocaleString<div>1IVY
 
 Describe any challenges encountered while building the app.
+
+- use of new functions I've never used
+- used google and chatgpt to get up to date, learn what they are, examples, and help with implementing if needed
+- more comfortable using template literals and DOM manipulation
 
 ## License
 
