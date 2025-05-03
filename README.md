@@ -25,6 +25,8 @@ Here's a walkthrough of implemented features:
 
 <img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://www.loom.com/share/a51b92f4bfaf43dfa84b608440aba828?sid=4cd92056-9073-4593-a7f6-2c56ac96f2e4)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+https://www.loom.com/share/a51b92f4bfaf43dfa84b608440aba828?sid=4cd92056-9073-4593-a7f6-2c56ac96f2e4
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
